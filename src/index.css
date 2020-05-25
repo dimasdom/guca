@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.plotkosyakimg{
+  height:2em;
+  transition: height .5s;
 }
+.plotkosyakimg:hover{
+  height:3em;
+}
+.plotkosyakimgalbm{
+  height: 9em;
+  transition: height .5s;
+}
+.plotkosyakimgalbm:hover{
+  height: 13em;
+}
+.plotkosyakdiv{
+  height:5em;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.plotcontainer{
+  height:70%;
+}
+.Guca{
+  font-family: 'Permanent Marker', cursive;
+  font-size:4em;
+}
+.Unclvlad{
+  font-family: 'Chelsea Market', cursive;
+  font-size:3em;
+}
+.UnclvladDescription{
+  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Chelsea Market', cursive;
+  font-size:1.7em;
+}
+.Info{
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Roboto Mono', monospace;
+}
+.shareic{
+  height:1em;
+}
+.soundcloud{
+  font-size: 1.3em;
+
+  border-radius: 20px;
+  border: none;
+  color:white;
+  background-color: orangered;
+}
+.applemusic{
+  font-size: 1.3em;
+
+  border-radius: 20px;
+  border: none;
+  color:white;
+  background-color: black;
+}
+.lisicon{
+  height: 1.5em;
+}
+.audio{
+  width: 70%;
+  height: 2em;
 }
